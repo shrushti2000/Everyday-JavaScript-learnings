@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Roboto+Slab&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px 10px #888888;
+    width: 30%;
+    
+}
+
+.sex{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+label,p{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+    font-family: 'Domine', serif;
+}
+
+.inp{
+    width: 300px;
+    height: 25px;
+    margin: 5px;
+}
+
+.address{
+    width: 300px;
+    height: 30px;
+}
+
+button{
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Domine', serif;
+    cursor: pointer;
+
+}
+
+
+

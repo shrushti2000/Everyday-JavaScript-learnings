@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Enter details</h1>
+            <label>Name :</label>
+            <input id="name" class="inp" type="text" name="name"  placeholder="name"/>
+            <label>Email :</label>
+            <input id="email" class="inp" type="email"  name="email" placeholder="email"/>
+            <label>Phone no:</label>
+            <input id="phone" class="inp" type="phone" name="phone"  placeholder="phone"/>
+            <label>Password :</label>
+            <input id="password" class="inp" type="password"  name="password" placeholder="password"/>
+           
+            <div id="sex" class="sex">
+                <label for="gender">Sex :</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+            </div>
+            
+            <label>Date :</label>
+            <input id="date" class="inp" type="date">
+            <div id="language" class="languages">
+                <p>Languages :</p>
+                <input type="checkbox" id="language1" name="english" value="english">
+                <label for="english">English </label><br>
+                <input type="checkbox" id="language2" name="telugu" value="telugu">
+                <label for="telugu">Telugu</label><br>
+                <input type="checkbox" id="language3" name="hindi" value="hindi">
+                <label for="vehicle3">Hindi</label><br>
+                <input type="checkbox" id="language4" name="tamil" value="tamil">
+                <label for="language4">tamil</label><br><br>
+            </div>
+            
+            <label >Address :</label>
+            <textarea id="address" class="address" placeholder="enter address"></textarea>
+    
+            <button id="button" type="submit">Submit</button>
+    
+        </form>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
