@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+#container{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid red;
+    cursor: pointer;
+}
+#list_container{
+    border: 3px solid green;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+li{
+    border: 2px solid black;
+    text-decoration: none;
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
