@@ -1,4 +1,4 @@
-#1.typeof operator
+# 1.typeof operator
 console.log(typeof 50);
 console.log(typeof null);
 console.log(typeof undefined);
