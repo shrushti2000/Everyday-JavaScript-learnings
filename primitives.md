@@ -13,10 +13,22 @@ console.log(typeof Symbol());  <br />
 2.  1+ 2+ '3   //33
 3.  1 +'2'  //12
 
-# swap two nos
+# 3.swap two nos
 let no1=10;
 let no2=20;
 [no1,no2]=[no2,no1];
  ### op
   20 10 
+ 
+ # 4.No to string
+ const no = 12; 
+no.toString();  //"12"
+String(no);      //"12"
+no+''            //"12"
+
+# String to number
+const str="12";
+Number(str);    //12
+parseInt(str)   //12
+
  
