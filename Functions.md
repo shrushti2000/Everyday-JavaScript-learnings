@@ -31,3 +31,18 @@ hof();
 ```
 op:
 hello
+### Write a fn that executes another function received as argument
+```js
+function f1(argfn){
+  if(typeof argfn==="function"){
+    argfn();
+  }
+  
+}
+function argfn(){
+  console.log("hello")
+}
+f1(argfn);
+```
+op: hello
+a function's execution context gives two objects by default 1. this keyword 2. arguments object
