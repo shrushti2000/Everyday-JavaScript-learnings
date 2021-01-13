@@ -31,8 +31,15 @@ const str="12";
 Number(str);    //12
 parseInt(str)   //12
 
-# BigInt
+# 6.BigInt
 const BigInt=123456785493738n;
 typeof BigInt;                      //bigint
 
+# 7.Usage of || && ?? !!
+false || true    //true
+true && false    //false
+undefined ?? 10; //10 returns rhs if lhs is undefined or null
+null ?? 10;      //10
+!!10        //true converts to boolean primitive
+!!0         //false
  
