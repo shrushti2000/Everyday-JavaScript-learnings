@@ -82,3 +82,26 @@ op: hello world
   console.log("hello world")
 }());
 ```
+### function that returns multiple values
+```
+function returnMultipleValues(){
+  const a=10,b=20;
+  return [a,b];
+}
+[x,y]=returnMultipleValues();
+```
+op: [10 20]
+
+### generator functions
+```
+function* generatorFunction(){
+  const a=5,b=10;
+  yield a;
+  yield b;
+}
+const iterator=generatorFunction();
+const x=iterator.next().value;
+const y=iterator.next().value;
+console.log(x,y)
+```
+op:5 10
