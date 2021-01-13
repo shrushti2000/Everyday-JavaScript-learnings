@@ -46,3 +46,15 @@ f1(argfn);
 ```
 op: hello
 a function's execution context gives two objects by default 1. this keyword 2. arguments object
+
+### Write a function that takes variable number of arguments and prints them
+```js
+function varArgs(...args){
+  for(let key in args){
+    console.log(arguments[key])
+  }
+}
+f1("hi","hello",1,6,7)
+``` 
+op:
+hi hello 1 6 7
