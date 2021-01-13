@@ -22,24 +22,24 @@ let no2=20;
  
  # 4.No to string
  const no = 12; 
-no.toString();  //"12"
-String(no);      //"12"
-no+''            //"12"
+1. no.toString();  //"12"
+2. String(no);      //"12"
+3. no+''            //"12"
 
 # 5.String to number
-const str="12";
-Number(str);    //12
-parseInt(str)   //12
+1. const str="12";
+2. Number(str);    //12
+3. parseInt(str)   //12
 
 # 6.BigInt
 const BigInt=123456785493738n;
 typeof BigInt;                      //bigint
 
 # 7.Usage of || && ?? !!
-false || true    //true
-true && false    //false
-undefined ?? 10; //10 returns rhs if lhs is undefined or null
-null ?? 10;      //10
-!!10        //true converts to boolean primitive
-!!0         //false
+1. false || true    //true
+2. true && false    //false
+3. undefined ?? 10; //10 returns rhs if lhs is undefined or null
+4. null ?? 10;      //10
+5. !!10        //true converts to boolean primitive
+6. !!0         //false
  
