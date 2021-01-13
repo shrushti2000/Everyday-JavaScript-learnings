@@ -69,3 +69,16 @@ function displayHello(){
 ```
 op:hello
 Variables and function declared with var keyword are put into the memory in the creation phase , that's why those variables functions can be accessed even before they are declared.
+
+### IIFE
+```
+(function displayHello(){
+  console.log("hello world")
+})();
+```
+op: hello world
+```
+(function displayHello(){
+  console.log("hello world")
+}());
+```
