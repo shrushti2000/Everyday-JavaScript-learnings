@@ -43,3 +43,10 @@ typeof BigInt;                      //bigint
 5. !!10        //true converts to boolean primitive
 6. !!0         //false
  
+ # 8.Methods available on Number
+ 1. Number.isInteger(12)    //true
+2. Number.isInteger(-12)    //true
+3. Number.parseInt(3.28)    //3
+4. Number.parseFloat('3.455')  //3.455
+5. 34.234.toFixed(2)          //34.23
+6. 34.234.toPrecision(3)       //34.23
