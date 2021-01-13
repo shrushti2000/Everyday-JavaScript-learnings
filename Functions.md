@@ -5,7 +5,7 @@ function displayHello(){
 }
 displayHello();
 ```
-#### op
+op:
 hello
 
 ### Write a function expression
@@ -15,7 +15,8 @@ var functexpr=function(){
 }
 functexpr();
 ```
-
+op:
+hello
 ### Write a function that returns another function and executes it after calling.
 
 ```js  
@@ -28,5 +29,5 @@ function higherOrderFunction(){
 var hof=higherOrderFunction();
 hof();
 ```
-##### op
+op:
 hello
