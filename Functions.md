@@ -58,3 +58,14 @@ f1("hi","hello",1,6,7)
 ``` 
 op:
 hi hello 1 6 7
+arrow functions cannot take variable arguments!
+
+###  demonstrate hoisting
+```
+displayHello();
+function displayHello(){
+  console.log("hello")
+}
+```
+op:hello
+Variables and function declared with var keyword are put into the memory in the creation phase , that's why those variables functions can be accessed even before they are declared.
