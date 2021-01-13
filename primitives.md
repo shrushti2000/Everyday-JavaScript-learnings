@@ -26,9 +26,13 @@ no.toString();  //"12"
 String(no);      //"12"
 no+''            //"12"
 
-# String to number
+# 5.String to number
 const str="12";
 Number(str);    //12
 parseInt(str)   //12
+
+# BigInt
+const BigInt=123456785493738n;
+typeof BigInt;                      //bigint
 
  
