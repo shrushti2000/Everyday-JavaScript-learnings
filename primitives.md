@@ -50,3 +50,16 @@ typeof BigInt;                      //bigint
 4. Number.parseFloat('3.455')  //3.455
 5. 34.234.toFixed(2)          //34.23
 6. 34.234.toPrecision(3)       //34.23
+
+# 9.Methods available on Math Object
+ 1.  Math.abs(-5);       //5
+2. Math.floor(1.6)       //1
+3. Math.ceil(2.4)        //3
+4. Math.round(3.5)       //3
+5. Math.max(1,3,-4)      //3
+6. Math.min(1,3,-4)      //-4
+7. Math.sqrt(64)         //8
+8. Math.pow(2,4)         //16
+9. Math.trunc(-6.3)      //-6
+
+ 
