@@ -4,6 +4,7 @@
 Collection of several fundamental concepts of JavaScripts like,
 * [Primitives](/primitives.md)
 * [Functions](/Functions.md)
+* [Objects](/Objects.md)
 
 
 ![Alt text](https://miro.medium.com/max/800/1*bxEkHw1xewxOFjmGunb-Cw.png)
