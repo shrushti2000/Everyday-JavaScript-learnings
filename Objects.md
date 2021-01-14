@@ -13,14 +13,17 @@ const obj={
   this[key]=value
 }
 const obj1=new obj("name","shrushti")
-console.log(obj1)```
- 
- ### create object using class
- ```
- class Object{
+console.log(obj1)
+```
+### create object using class
+```
+class Object{
   constructor(key,value){
     this[key]=value
   }
 }
 const obj=new Object("name","shrushti")
-console.log(obj)```
+console.log(obj)
+```
+
+
