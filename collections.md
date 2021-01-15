@@ -40,3 +40,9 @@ arr.unshift(-2,-1)
 arr.pop()
 arr.shift()
 ```
+```
+const arr=new Array(1,2,3,4)
+const arr1=new Array(10,20)
+arr.push(...arr1)
+arr.unshift(...arr1)
+```
