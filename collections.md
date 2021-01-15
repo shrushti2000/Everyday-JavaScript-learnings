@@ -31,4 +31,12 @@ for(let value of arr){
 ```
 arr.forEach(val=>console.log(val))
 ```
-
+### append,prepend elements in an array
+```
+arr.push(5)
+arr.unshift(0)
+arr.push(6,7)
+arr.unshift(-2,-1)
+arr.pop()
+arr.shift()
+```
