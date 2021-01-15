@@ -6,7 +6,7 @@ Collection of several fundamental concepts of JavaScripts like,
 * [Functions](/Functions.md)
 * [Objects](/Objects.md)
 * [asynchronous_JavaScript](/asynchronous_JavaScript.md)
-* [Collections](/Collections.md)
+* [Collections](/collections.md)
 
 
 ![Alt text](https://miro.medium.com/max/800/1*bxEkHw1xewxOFjmGunb-Cw.png)
