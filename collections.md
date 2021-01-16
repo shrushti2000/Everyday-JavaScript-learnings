@@ -46,3 +46,21 @@ const arr1=new Array(10,20)
 arr.push(...arr1)
 arr.unshift(...arr1)
 ```
+### splice method
+
+```
+const arr=new Array(1,2,3,4)
+arr.splice(2,1)
+arr
+```
+op:[1,2,4]
+splice method can remove elements and also add elements at specified position
+```
+const arr=new Array(1,2,3,4)
+arr.splice(2,0,10,20,30)
+arr
+```
+op:[
+   1, 2, 10, 20,
+  30, 3,  4
+]
