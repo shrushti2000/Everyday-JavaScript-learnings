@@ -64,3 +64,19 @@ op:[
    1, 2, 10, 20,
   30, 3,  4
 ]
+
+### different ways to empty an array
+```
+arr=[]
+```
+```
+arr.length=0
+```
+```
+while(arr.length>0){
+  arr.pop()
+}
+```
+```
+arr.splice(0,arr.length)
+```
