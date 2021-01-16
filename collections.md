@@ -80,3 +80,10 @@ while(arr.length>0){
 ```
 arr.splice(0,arr.length)
 ```
+### check if given input is an array
+```
+Array.isArray(arr)
+```
+```
+Object.prototype.toString.call(arr)==='[object Array]'
+```
