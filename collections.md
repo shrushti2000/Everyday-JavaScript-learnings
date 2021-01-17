@@ -116,3 +116,18 @@ function mergeArray(arr1,arr2=arr1){
 var array=mergeArray(arr1,arr2)
 array
 ```
+### show how array can act like stack
+```
+var arr1=[1,2,3]
+arr1.push(11)
+arr1.pop()
+arr1
+```
+### show how array can act like queue
+```
+var arr1=[1,2,3]
+arr1.push(11)
+arr1.shift()
+arr1
+```
+```
