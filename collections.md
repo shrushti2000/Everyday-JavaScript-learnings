@@ -136,4 +136,9 @@ var arr1=[1,2,3]
 arr1.sort((a,b)=>a-b)
 arr1
 ```
-
+### sort array in descending order
+```
+var arr1=[1,2,3]
+arr1.sort((a,b)=>b-a)
+arr1
+```
