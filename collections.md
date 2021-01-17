@@ -130,4 +130,10 @@ arr1.push(11)
 arr1.shift()
 arr1
 ```
+### sort array in ascending order
 ```
+var arr1=[1,2,3]
+arr1.sort((a,b)=>a-b)
+arr1
+```
+
