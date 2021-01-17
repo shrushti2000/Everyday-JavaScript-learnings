@@ -87,3 +87,32 @@ Array.isArray(arr)
 ```
 Object.prototype.toString.call(arr)==='[object Array]'
 ```
+### write a function to concatenate two arrays
+```
+var arr1=[1,2,3]
+var arr2=[10,20,30]
+function mergeArray(arr1,arr2=arr1){
+  return [...arr1,...arr2]
+}
+var array=mergeArray(arr1,arr2)
+array
+```
+```
+var arr1=[1,2,3]
+var arr2=[10,20,30]
+function mergeArray(arr1,arr2=arr1){
+  return arr1.concat(arr2)
+}
+var array=mergeArray(arr1,arr2)
+array
+```
+```
+var arr1=[1,2,3]
+var arr2=[10,20,30]
+function mergeArray(arr1,arr2=arr1){
+ arr1.push(arr2)
+ return arr1
+}
+var array=mergeArray(arr1,arr2)
+array
+```
