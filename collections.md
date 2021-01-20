@@ -149,3 +149,16 @@ const filteredArray=arr1.filter(val=>val>0)
 const squaredArray=filteredArray.map(val=>val * val)
 squaredArray
 ```
+### Shuffle array
+```
+function generateArray(start=1,end=0){
+  const arr=[]
+  for(let i=start;i<end;i++){
+    arr.push(i)
+  }
+  return arr
+}
+const arr=generateArray(1,10);
+arr.sort(()=>0.5-Math.random())
+arr
+```
