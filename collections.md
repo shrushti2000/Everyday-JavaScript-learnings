@@ -142,3 +142,10 @@ var arr1=[1,2,3]
 arr1.sort((a,b)=>b-a)
 arr1
 ```
+### show the use of filter and map functions
+```
+var arr1=[-1,-2,1,2,3,4,5,6]
+const filteredArray=arr1.filter(val=>val>0)
+const squaredArray=filteredArray.map(val=>val * val)
+squaredArray
+```
