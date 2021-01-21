@@ -162,7 +162,7 @@ const arr=generateArray(1,10);
 arr.sort(()=>0.5-Math.random())
 arr
 ```
-### create an array by removing hole
+### create an array by removing holes in an array
 holes are undefined values in an array
 ```
 const arrayWithoutHoles=arr.filter(value=>true)
