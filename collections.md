@@ -168,3 +168,9 @@ holes are undefined values in an array
 const arrayWithoutHoles=arr.filter(value=>true)
 ```
 filter does not iterate over undefined
+###  reduce method
+``
+const arr=[10,20,30]
+const sum=arr.reduce((acc,val)=>acc+val,0)
+sum
+``
