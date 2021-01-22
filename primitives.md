@@ -62,4 +62,18 @@ typeof BigInt;                      //bigint
 8. Math.pow(2,4)         //16
 9. Math.trunc(-6.3)      //-6
 
- 
+ ### iterate a string 
+ ```
+ const str="hello"
+for(let i of str){
+  console.log(i)
+}
+
+for(let i=0;i<str.length;i++){
+  console.log(str[i])
+}
+
+for(let i=0;i<str.length;i++){
+  console.log(str.charAt(i))
+}
+ ```
