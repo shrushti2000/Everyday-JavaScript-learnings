@@ -46,7 +46,7 @@ const arr1=new Array(10,20)
 arr.push(...arr1)
 arr.unshift(...arr1)
 ```
-### splice method
+### splice method in JavaScript
 
 ```
 const arr=new Array(1,2,3,4)
