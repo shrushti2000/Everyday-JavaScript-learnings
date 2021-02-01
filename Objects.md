@@ -30,3 +30,9 @@ console.log(obj)
 const obj=Object.create(null);
 obj
 ```
+### create obj from arr using fromEntries
+```
+const arr=[['a',1],['b',2]];
+const obj=Object.fromEntries(arr)
+obj
+```
