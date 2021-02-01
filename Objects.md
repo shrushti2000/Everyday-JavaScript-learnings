@@ -28,4 +28,5 @@ console.log(obj)
 ### create object with no prototype attached to it
 ```
 const obj=Object.create(null);
-obj```
+obj
+```
