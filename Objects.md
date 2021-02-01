@@ -36,3 +36,7 @@ const arr=[['a',1],['b',2]];
 const obj=Object.fromEntries(arr)
 obj
 ```
+Op:
+const arr=[['a',1],['b',2]];
+const obj=Object.fromEntries(arr)
+obj
