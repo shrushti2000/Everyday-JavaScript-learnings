@@ -25,5 +25,7 @@ class Object{
 const obj=new Object("name","shrushti")
 console.log(obj)
 ```
-
-
+### create object with no prototype attached to it
+```
+const obj=Object.create(null);
+obj```
