@@ -2,7 +2,7 @@
 ```
 const obj=Object.create({"name":"shrushti"})
 ```
-### Object literal
+### Object  literal
 ```
 const obj={
   "name":"shrushti"
