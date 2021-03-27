@@ -8,7 +8,7 @@ const obj={
   "name":"shrushti"
 }
 ```
-### using new keyword on constructor function
+### Using new keyword on constructor function
 ```function obj(key,value){
   this[key]=value
 }
