@@ -1,4 +1,4 @@
-### Create an object using Object constructor
+### Create an object using Object constructor in JavaScript.
 ```
 const obj=Object.create({"name":"shrushti"})
 ```
