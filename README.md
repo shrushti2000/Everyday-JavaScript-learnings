@@ -8,5 +8,5 @@ Collection of several fundamental concepts of JavaScripts like ,
 * [asynchronous_JavaScript](/asynchronous_JavaScript.md)
 * [Collections](/collections.md)
 
-[Collection of my JavaScript blogs on medium](https://shrushtipolekar.medium.com/)
+### [Collection of my JavaScript blogs on medium](https://shrushtipolekar.medium.com/)
 ![Alt text](https://miro.medium.com/max/800/1*bxEkHw1xewxOFjmGunb-Cw.png)
